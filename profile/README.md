@@ -8,9 +8,22 @@ This Guide describes how to setup a smart layer's node on any EVM data availabil
    ```sh
    git clone https://github.com/Optimism-superchains-smart-layer/optimism.git
    ```
+   
 2. Build the Optimism Monorepo, by visiting:
    ```sh
    https://stack.optimism.io/docs/build/getting-started/#build-the-optimism-monorepo
    ```
-3. Start the frontend with `npm run dev`
+
+3. Clone/fork the tweaked op-geth: 
+   ```sh
+   git clone https://github.com/Optimism-superchains-smart-layer/op-geth.git
+   ```
+
+4. Build the op-geth, by visiting:
+   ```sh
+   https://stack.optimism.io/docs/build/getting-started/#build-op-geth
+   ```
+
+5. Choice of Data Availability layer, ranges from ethereum, optimism, zora and base. As this is either an L2 or an L3, depending on this choice.
+
 4. Open localhost:5173 in your browser
