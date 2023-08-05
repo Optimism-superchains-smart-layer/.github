@@ -1,12 +1,17 @@
-## Hi there 👋
+# Optimism's superchains smart layer
+This Guide describes how to setup a smart layer's node on any EVM data availability layer, in this case ethereum (L1) or any op-stack chain (L2). 
 
-<!--
+# Getting started 
+As a pre-requisite, you will need to install Node and Foundry. Follow the instructions in https://github.com/ethereum-optimism/optimism-starter for guidance. 
 
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+1. Clone/fork the superchain-relayer repo
+   ```sh
+   git clone https://github.com/ethereum-optimism/superchain-relayer.git
+   ```
+2. Install the necessary node packages:
+   ```sh
+   cd superchain-relayer
+   npm install
+   ```
+3. Start the frontend with `npm run dev`
+4. Open localhost:5173 in your browser
