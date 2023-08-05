@@ -8,7 +8,7 @@ This Guide describes how to setup a smart layer's node on any EVM data availabil
    ```sh
    git clone https://github.com/Optimism-superchains-smart-layer/optimism.git
    ```
-2. Build the Optimism Monorepo:
+2. Build the Optimism Monorepo, by visiting:
    ```sh
    https://stack.optimism.io/docs/build/getting-started/#build-the-optimism-monorepo
    ```
