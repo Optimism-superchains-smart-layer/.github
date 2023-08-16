@@ -1,6 +1,9 @@
 # Optimism's superchains smart layer
 This Guide describes how to setup a smart layer's node on any EVM data availability layer, in this case ethereum (L1) or any op-stack chain (L2). 
 
+# What is smart layer 
+An OP-Stack chain that indexes its Data availability layer for events and let's smart contract developers register function hooks that should get executed when said events occur. Event's in this case could be normal events or a new L1 block being created. In summary, it creates EVM Event-Triggered Transactions and EVM Block-Triggered Transactions.
+
 # Getting started 
 
 
